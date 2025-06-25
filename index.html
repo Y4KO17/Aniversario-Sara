@@ -128,8 +128,8 @@
 
   <section class="galeria">
     <h2>Momentos que me hacen sonreír</h2>
-    <img src="https://i.imgur.com/foto1.jpg" alt="Foto llamada 1" />
-    <img src="https://i.imgur.com/foto2.jpg" alt="Foto llamada 2" />
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUTEhIVFRUVFRUVFRUVFRUVFRUVFhUXFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGzclHyU1NTUtKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAJ8BPgMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAMEBgcCAQj/xABFEAACAQIEAwUFBQYEBQUBAAABAhEAAwQSITEFQVEGEyJhcYGRBzKhsdHwFCNSYnLh8FJjssLxFRYjQ1OCkqL/xAAaAQADAQEBAQAAAAAAAAAAAAACAwQBAAUG/8QAMREAAgIBAwIEBAUDBQAAAAAAAAECEQMEEiExQRNRYXGBkaGx8BMUIkKxwdHh8RUjYvH/2gAMAwEAAhEDEQA/AL0REQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERBvKFRGCsQKRRICD3zGBBBzUUUtQ4dJRSyMpyT4F5RjYll3nYYyFStJZwAHsYb9aeVJ7zGEy0gPiB2mbAB3rNLiYtsB50g5pOUbKqbtFlNRiQczl2j6HTT4K5VK1JGnJ25uwZkEkcdDQT5UuEohFhKiIRYSojEWC0YiFSiEVioiIWiyhERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERB//2Q==" alt="Foto llamada 1" />
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUTEhIVFRUVFRUVFRUVFRUVFRUVFhUXFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGzclHyU1NTUtKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAJ8BPgMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAMEBgcCAQj/xABFEAACAQIEAwUFBQYEBQUBAAABAhEAAwQSITEFQVEGEyJhcYGRBzKhsdHwFCNSYnLh8FJjssLxFRYjQ1OCkqL/xAAaAQADAQEBAQAAAAAAAAAAAAACAwQBAAUG/8QAMREAAgIBAwIEBAUDBQAAAAAAAAECEQMEEiExQRNRYXGBkaGx8BMUIkKxwdHh8RUjYvH/2gAMAwEAAhEDEQA/AK4REQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERB//2Q==" alt="Foto llamada 2" />
   </section>
 
   <section class="carta">
@@ -147,14 +147,12 @@
   </section>
 
   <script>
-    // Contador de días desde el 25 de abril de 2025
     const inicio = new Date('2025-04-25');
     const hoy = new Date();
     const diffTime = Math.abs(hoy - inicio);
     const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
     document.getElementById("diasContador").textContent = `Llevamos juntos ${diffDays} días desde nuestra segunda oportunidad 🌹`;
 
-    // Frases rotativas con animación
     const frases = [
       "Eres mi lugar feliz 💖",
       "Gracias por volver a mí 🌟",
@@ -177,7 +175,6 @@
     mostrarFrase();
     setInterval(mostrarFrase, 3000);
 
-    // Decoración con lirios del valle y brillitos
     const decoracion = document.getElementById("decoracion");
     const emojis = ["✨", "💫", "🌸", "🌷", "🌿", "🌼", "💖", "🌺", "🪷", "🌹", "💐", "🌻", "🩷", "🕊️", "🌱", "💞", "🤍", "🌸", "🩵"];
     function crearEmoji() {
@@ -194,4 +191,3 @@
   </script>
 </body>
 </html>
-
